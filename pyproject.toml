@@ -1,7 +1,11 @@
 [project]
 name = "pdf-parser"
 version = "0.1.0"
-description = "Add your description here"
+description = "PDF parser with OCR support for image-only PDFs"
 readme = "README.md"
 requires-python = ">=3.9.2"
-dependencies = []
+dependencies = [
+    "pdfplumber>=0.10.2",
+    "pytesseract>=0.3.10",
+    "Pillow>=10.0.0"
+]
